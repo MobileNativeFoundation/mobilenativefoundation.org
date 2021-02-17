@@ -1,0 +1,73 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.15em;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  margin: 4em 0 5em;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1.25em;
+  margin: 0.5em 0;
+}
+
+h4 {
+  line-height: 1.5em;
+}
+
+.support {
+  font-weight: bold;
+}
+
+.ctacontainer {
+  margin: 3em 0 6em;
+}
+
+.cta {
+  background-color: #30bced;
+  border-radius: 0.4em;
+  color: white;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: medium;
+  padding: 0.7em;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: #129cce;
+  color: white;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;
+  margin: 1em;
+}
+
+#companies div {
+  height: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#companies img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+  width: 100px;
+}
+
+footer {
+  margin: 2em 0;
+  text-align: center;
+}
