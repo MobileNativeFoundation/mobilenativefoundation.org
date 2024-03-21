@@ -13,8 +13,6 @@ body {
   line-height: 1.5;
   padding: 0 20px;
   margin: 0 auto;
-  margin-top: env(safe-area-inset-top, 0);
-  margin-bottom: env(safe-area-inset-bottom, 0);
   max-width: 960px; /* TODO: change to ch based */
 }
 
